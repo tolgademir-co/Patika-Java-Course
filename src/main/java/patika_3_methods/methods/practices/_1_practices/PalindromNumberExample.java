@@ -1,4 +1,4 @@
-package patika_3_methods.practices._1_practices;
+package patika_3_methods.methods.practices._1_practices;
 
 import java.util.Scanner;
 

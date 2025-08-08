@@ -1,4 +1,4 @@
-package JavaDersleri;
+package JavaDersleri.MethodStatic;
 
 public class Metotlar {
 

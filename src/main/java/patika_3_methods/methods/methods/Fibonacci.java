@@ -1,4 +1,4 @@
-package patika_3_methods;
+package patika_3_methods.methods.methods;
 
 public class Fibonacci {
 

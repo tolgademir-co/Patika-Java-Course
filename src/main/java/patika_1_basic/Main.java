@@ -1,17 +1,25 @@
-package hafta1;
+package patika_1_basic;
 
 public class Main {
+
+    /**
+     * bu method silinmemesi gerekiyor!!
+     * @param args
+     */
 
     public static void main(String[] args) {
 
 
-        System.out.println("Hello Patika.dev1");
+        //System.out.println("Hello Patika.dev1");
 
+        /*
         System.out.println("Hello Patika.dev2");
 
         System.out.println("Hello Patika.dev3");
 
-        int i = 30;
+         */
+
+        int i = 28; // TODO çünkü şu an 28 yaşındayım
 
         int i1 = 50;
 
@@ -80,10 +88,42 @@ public class Main {
         boolean isFalse1 = (false || true) && (false && false) || (true && true && false);
 
 
+        String name = "Merhaba, Dünya!";
+        System.out.println(name);
 
 
+        int length = name.length();
+        System.out.println(length);
+
+        System.out.println(name.toLowerCase());
+
+        String toUpper = name.toUpperCase();
+        System.out.println(toUpper);
+
+        System.out.println(name.charAt(5));
+        System.out.println("Merhaba, Patika".substring(8));
+
+        String hi = "Merhaba, ";
+        System.out.println(hi + "Patika");
+
+        boolean isStringsEquals = hi.equals(name);
+        System.out.println(isStringsEquals);
+        boolean isStringsEquals1 = "hi".equals("Patika");
+        System.out.println(isStringsEquals1);
 
 
+        String s1 = "Java";
+        String s2 = new String("Java");
+        String s3 = "java";
+        String s4 = "Java";
+
+
+        System.out.println("s1 eşit mi s2: " + s1.equals(s2));
+        System.out.println("s1 eşit mi s3: " + s1.equals(s3));
+
+
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s4);
 
 
     }
