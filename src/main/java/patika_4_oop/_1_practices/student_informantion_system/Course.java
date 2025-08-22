@@ -50,6 +50,13 @@ public class Course {
         this.teacher = teacher;
     }
 
+    public void setNote(int note) {
+        this.note = note;
+    }
+
+    public int getNote() {
+        return note;
+    }
 
 
     @Override
@@ -59,8 +66,5 @@ public class Course {
                 ", code='" + code + '\'' +
                 ", hourseOfWeek=" + hourseOfWeek +
                 '}';
-    }
-
-    public void setNote(int note) {
     }
 }
