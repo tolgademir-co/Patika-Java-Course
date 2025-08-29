@@ -1,4 +1,4 @@
-package patika_5_collections.list;
+package patika_5_collections_generics.collections.list;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

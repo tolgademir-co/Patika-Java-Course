@@ -1,4 +1,4 @@
-package patika_5_collections.set;
+package patika_5_collections_generics.collections.set;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

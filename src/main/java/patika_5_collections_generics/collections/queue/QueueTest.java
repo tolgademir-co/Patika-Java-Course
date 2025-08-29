@@ -1,4 +1,4 @@
-package patika_5_collections.queue;
+package patika_5_collections_generics.collections.queue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

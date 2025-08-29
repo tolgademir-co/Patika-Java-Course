@@ -1,4 +1,4 @@
-package patika_5_collections.map;
+package patika_5_collections_generics.collections.map;
 
 public class Book {
 

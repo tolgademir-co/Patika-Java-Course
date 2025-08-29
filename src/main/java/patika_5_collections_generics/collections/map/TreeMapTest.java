@@ -1,4 +1,4 @@
-package patika_5_collections.map;
+package patika_5_collections_generics.collections.map;
 
 import java.util.Map;
 import java.util.TreeMap;
